@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello Babai 😄</h1>
-  <script src="script.js"></script>
+<div class="calculator">
+    <div id="screen">0</div>
+    <div class="keys">
+        <button onclick="press('1')">1</button>
+        <button onclick="press('2')">2</button>
+        <button onclick="press('3')">3</button>
+        <button onclick="press('4')">4</button>
+        <button onclick="press('5')">5</button>
+        <button onclick="press('6')">6</button>
+        <button onclick="press('7')">7</button>
+        <button onclick="press('8')">8</button>
+        <button onclick="press('9')">9</button>
+        <button class="zero" onclick="press('0')">0</button>
+        <button onclick="press('.')">.</button>
+        <button class="op" onclick="press('+')">+</button>
+        <button class="op" onclick="press('-')">-</button>
+        <button class="op" onclick="press('*')">*</button>
+        <button class="op" onclick="press('/')">/</button>
+        <button class="equal" onclick="press('=')">=</button>
+        <button class="back" onclick="press('⌫')">⌫</button>
+        <button class="clear" onclick="press('C')">C</button>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
