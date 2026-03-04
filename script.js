@@ -58,7 +58,6 @@ function press(value){
        }
        current = current + value;
        screen.innerText = current;
-
     }
 document.addEventListener("keydown",function (event){
     const allowedKeys = "0123456789+-*/.=cC";
@@ -76,7 +75,5 @@ document.addEventListener("keydown",function (event){
     }
      if(allowedKeys.includes(event.key)){
         press(event.key);
-    
      }
-
 });
